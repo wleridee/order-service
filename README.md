@@ -21,6 +21,8 @@ mvn spring-boot:run
 | Méthode | Chemin      | Description              |
 |---------|-------------|--------------------------|
 | GET     | `/products` | Liste des produits       |
+| POST    | `/orders`   | Passer une commande      |
+| GET     | `/orders/search?customer=` | Commandes d'un client |
 
 ## Tests
 
